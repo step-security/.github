@@ -4,6 +4,8 @@
 
 ## Thwart software supply chain attacks
 
+StepSecurity provides a holistic understanding of software supply chain security issues and how they can be prevented with the following leading edge components that can be implemented in many GitHub repositories to counter these types of threats and lack of detection.
+
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
 Harden the Ubuntu VM on which GitHub Actions runs your workflow: 
