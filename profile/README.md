@@ -38,7 +38,7 @@ Automatically enable security features in GitHub Actions workflow files:
 
 ### [Supply Chain Goat](https://github.com/step-security/supply-chain-goat)
 
-Supply Chain Goat follows the tradition of existing *Goat projects (e.g. [OWASP Web Goat](https://github.com/WebGoat/WebGoat)). It provides
+Supply Chain Goat follows the tradition of existing *Goat projects (e.g. OWASP Web Goat). It provides
 a training ground to practice implementing countermeasures specific to the software supply chain. 
 
 1. Learn about past supply chain incidents
