@@ -4,7 +4,7 @@
 
 ## Thwart software supply chain attacks
 
-StepSecurity provides a holistic understanding of software supply chain security issues and how they can be prevented with the following leading edge components that can be implemented in many GitHub repositories to counter these types of threats and lack of detection.
+StepSecurity defines a supply chain attack as an attack that tries to hijack software that you produce or consume. StepSecurity provides a holistic understanding of software supply chain security issues and how they can be prevented with the following leading-edge components that can be implemented in many GitHub repositories to counter these types of threats and lack of detection.
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
@@ -17,8 +17,8 @@ Harden the Ubuntu VM on which GitHub Actions runs your workflow:
         with:
           egress-policy: audit
     ```
-2. Discover outbound traffic 
-3. Restrict outbound traffic, prevent DNS exfiltration, and exfiltration of credentials    
+2. Discover outbound traffic from your software during integration testing
+3. Restrict outbound traffic, prevent DNS exfiltration, and exfiltration of credentials during release builds    
 4. Detect unauthorized modification to source code or dependencies 
 5. Cryptographically verify tools downloaded and used as part of the pipeline
 
