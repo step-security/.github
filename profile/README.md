@@ -25,6 +25,7 @@ Harden the Ubuntu VM on which GitHub Actions runs your workflow:
 Workflows using harden-runner:
 1. https://github.com/nvm-sh/nvm/tree/master/.github/workflows
 2. https://github.com/shivammathur/setup-php/blob/master/.github/workflows/node-release.yml
+3. https://github.com/dassana-io/dassana/blob/main/.github/workflows/publish-ut-coverage.yaml
 
 
 ### [Secure Workflows](https://github.com/step-security/secure-workflows)
