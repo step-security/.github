@@ -8,7 +8,7 @@ StepSecurity defines a supply chain attack as an attack that tries to hijack sof
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
-Harden the Ubuntu VM on which GitHub Actions runs your workflow: 
+Add security controls and monitoring to the build server (Ubuntu VM) on which GitHub Actions runs your workflows: 
 
 1. Install agent using a step in the workflow. Step takes less than 5 seconds to run  
     ```
