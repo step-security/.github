@@ -35,7 +35,7 @@ Automatically enable security features in GitHub Actions workflow files:
 2. Pin Actions to a full length commit SHA
 3. Add Step Security Harden Runner GitHub Action 
 
-#1 and #2 are [recommended by GitHub](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions) and get you a higher [Scorecards](https://github.com/ossf/scorecard) score. 
+[OSSF Scorecards](https://opensource.googleblog.com/2020/11/security-scorecards-for-open-source.html) recommends using [StepSecurity's online tool](https://app.stepsecurity.io/) for [#1](https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions) and [#2](https://github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies). The online tool uses [Secure Workflows](https://github.com/step-security/secure-workflows). 
 
 ### [Supply Chain Goat](https://github.com/step-security/supply-chain-goat)
 
