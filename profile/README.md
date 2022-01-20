@@ -25,7 +25,9 @@ Add security controls and monitoring to the build server (Ubuntu VM) on which Gi
 Workflows using harden-runner:
 1. https://github.com/nvm-sh/nvm/tree/master/.github/workflows
 2. https://github.com/shivammathur/setup-php/blob/master/.github/workflows/node-release.yml
-3. https://github.com/dassana-io/dassana/blob/main/.github/workflows/publish-ut-coverage.yaml
+3. https://github.com/microsoft/msquic/tree/main/.github/workflows
+4. https://github.com/dassana-io/dassana/blob/main/.github/workflows/publish-ut-coverage.yaml
+5. https://github.com/MTRNord/matrix-art/tree/main/.github/workflows
 
 
 ### [Secure Workflows](https://github.com/step-security/secure-workflows)
