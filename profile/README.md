@@ -8,27 +8,19 @@ StepSecurity defines a supply chain attack as an attack that tries to hijack sof
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
-Add security controls and monitoring to the build server (Ubuntu VM) on which GitHub Actions runs your workflows: 
+Add security controls and monitoring to the build server (Ubuntu VM) on which GitHub Actions runs your workflows. Unlike traditional monitoring for Cloud VMs, [`harden-runner`](https://github.com/step-security/harden-runner) insights and policy are granular per job of a workflow. 
 
-1. Install agent using a step in the workflow. Step takes less than 5 seconds to run  
+1. Install using a step in the workflow. Step takes less than 5 seconds to run  
     ```
       - name: Harden Runner
         uses: step-security/harden-runner@v1
         with:
           egress-policy: audit
     ```
-2. Discover outbound traffic from your software during integration testing
+2. First-of-its-kind patent-pending technology that automatically correlates outbound traffic with each step of a workflow
 3. Restrict outbound traffic, prevent DNS exfiltration, and exfiltration of credentials during release builds    
 4. Detect unauthorized modification to source code or dependencies 
 5. Cryptographically verify tools downloaded and used as part of the pipeline
-
-Workflows using harden-runner:
-1. https://github.com/nvm-sh/nvm/tree/master/.github/workflows
-2. https://github.com/microsoft/msquic/tree/main/.github/workflows
-3. https://github.com/dassana-io/dassana/blob/main/.github/workflows/publish-ut-coverage.yaml
-4. https://github.com/MTRNord/matrix-art/tree/main/.github/workflows
-5. https://github.com/myrotvorets/opentelemetry-plugin-knex/blob/master/.github/workflows/package-audit.yml
-
 
 ### [Secure Workflows](https://github.com/step-security/secure-workflows)
 
