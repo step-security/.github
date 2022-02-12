@@ -11,7 +11,7 @@ StepSecurity defines a supply chain attack as an attack that tries to hijack sof
 Add security controls and monitoring to the build server (Ubuntu VM) on which GitHub Actions runs your workflows. Unlike traditional monitoring for Cloud VMs, [`harden-runner`](https://github.com/step-security/harden-runner) insights and policy are granular per job of a workflow. 
 
 1. Install using a step in the workflow. Step takes less than 5 seconds to run  
-    ```
+    ```yaml
       - name: Harden Runner
         uses: step-security/harden-runner@v1
         with:
