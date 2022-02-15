@@ -15,7 +15,11 @@ Add security controls and monitoring to the build server (Ubuntu VM) on which Gi
       - name: Harden Runner
         uses: step-security/harden-runner@v1
         with:
-          egress-policy: audit
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+            pypi.org:443
     ```
 2. First-of-its-kind patent-pending technology that automatically correlates outbound traffic with each step of a workflow
 3. Restrict outbound traffic, prevent DNS exfiltration, and exfiltration of credentials during release builds    
