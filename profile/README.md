@@ -8,7 +8,7 @@ StepSecurity defines a supply chain attack as an attack that tries to hijack sof
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
-This GitHub Action can be used to visualize process, file, and network activity from your GitHub Actions workflows in a web UI. It can also be used to restrict outbound traffic to allowed endpoints.
+This GitHub Action can be used to visualize process, file, and network activity from GitHub-hosted runners in a Web UI. It can also be used to restrict outbound traffic to allowed endpoints.
 
 Hijacked dependencies and compromised build tools typically make outbound requests during the build process to exfiltrate data or credentials. This was the case in the [Codecov breach](https://www.bleepingcomputer.com/news/security/popular-codecov-code-coverage-tool-hacked-to-steal-dev-credentials/), in the [dependency confusion attacks](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610), and the recent [npm package hijacks](https://github.com/faisalman/ua-parser-js/issues/536).
 
