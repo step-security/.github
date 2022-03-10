@@ -8,11 +8,11 @@ StepSecurity defines a supply chain attack as an attack that tries to hijack sof
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
-This GitHub Action can be used to visualize process, file, and network activity from GitHub-hosted runners in a Web UI. It can also be used to restrict outbound traffic to allowed endpoints.
+Harden-Runner GitHub Action installs a security agent on the Github-hosted runner to prevent exfiltration of credentials, monitor the build process, and detect compromised dependencies.
 
-Hijacked dependencies and compromised build tools typically make outbound requests during the build process to exfiltrate data or credentials. This was the case in the [Codecov breach](https://www.bleepingcomputer.com/news/security/popular-codecov-code-coverage-tool-hacked-to-steal-dev-credentials/), in the [dependency confusion attacks](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610), and the recent [npm package hijacks](https://github.com/faisalman/ua-parser-js/issues/536).
+Hijacked dependencies and compromised build tools typically make outbound requests during the build process to exfiltrate data or credentials. This was the case in the [Codecov breach](https://www.bleepingcomputer.com/news/security/popular-codecov-code-coverage-tool-hacked-to-steal-dev-credentials/), in the [dependency confusion attacks](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610), and the recent [npm package hijacks](https://github.com/faisalman/ua-parser-js/issues/536). There is also a risk that a compromised dependency or build tool may modify source code, dependencies, or artifacts during the build process.
 
-[Harden Runner](https://github.com/step-security/harden-runner) is a first-of-its-kind patent-pending technology that automatically correlates outbound traffic with each step of a workflow. Add the recommended outbound endpoints to your workflow file, and only traffic to these endpoints will be allowed.
+[Harden Runner](https://github.com/step-security/harden-runner) is a first-of-its-kind technology that automatically correlates outbound traffic, file modifications, and process activity with each step of a workflow. You can also set a policy per job of a workflow to restrict outbound traffic. 
 
 ### [Secure Workflows](https://github.com/step-security/secure-workflows)
 
