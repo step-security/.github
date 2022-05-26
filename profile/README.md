@@ -14,6 +14,11 @@ Hijacked dependencies and compromised build tools typically make outbound reques
 
 [Harden Runner](https://github.com/step-security/harden-runner) is a first-of-its-kind technology that automatically correlates outbound traffic, file modifications, and process activity with each step of a workflow. You can also set a policy per job of a workflow to restrict outbound traffic. 
 
+### [Release Monitor](https://github.com/apps/stepsecurity-app)
+
+Release Monitor helps you setup governance for your release process and detect if an attacker updates your software artifact to inject a backdoor.
+Release Monitor allows you to define your `release policy as code` and notifies you if a new version of your software is released without following the expected release process. 
+
 ### [Secure Workflows](https://github.com/step-security/secure-workflows)
 
 Automatically enable security features in GitHub Actions workflow files:
