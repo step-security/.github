@@ -2,7 +2,7 @@
   <img src="https://step-security-images.s3.us-west-2.amazonaws.com/Final-Logo-06.png" alt="Step Security Logo" width="340">
 </p>
 
-## Produce Software With Confidence
+## Apply security best practices without the hassle!
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
