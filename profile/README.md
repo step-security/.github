@@ -2,7 +2,7 @@
   <img src="https://step-security-images.s3.us-west-2.amazonaws.com/Final-Logo-06.png" alt="Step Security Logo" width="340">
 </p>
 
-## Apply security best practices without the hassle!
+## Stop CI/CD Software Supply Chain Attacks
 
 ### [Harden Runner](https://github.com/step-security/harden-runner)
 
